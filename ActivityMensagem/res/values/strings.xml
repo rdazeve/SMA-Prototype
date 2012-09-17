@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, ActivityActivity!</string>
+    <string name="app_name">SMA-Prototype</string>
+    <string name="tituloMain">Protótipo</string>
+    <string name="btnCadastro">Cadastro</string>
+    <string name="tituloCadastro">Cadastro</string>
+    <string name="btnOkCadastro">OK</string>
+    <string name="textViewTeste">Teste</string>
+    <string name="tituloPergunta">Pergunta</string>
+    <string name="btnFazerPergunta">Fazer Pergunta</string>
+    <string name="PrototipoDatabase_onCreate">"
+    CREATE TABLE usuario (user_id INTEGER PRIMARY KEY AUTOINCREMENT, user_name TEXT);
+	CREATE TABLE pergunta (ask_i\d INTEGER PRIMARY KEY AUTOINCREMENT, user_id, ask_question TEXT);
+    " </string>
+    <string name="PrototipoDatabase_onUpgrade">"
+	DROP TABLE IF EXISTS usuario
+	DROP TABLE IF EXISTS pergunta
+	" </string>
+    <string name="btnUsuarios">Listar Usuarios</string>
+    <string name="textviewTeste">Teste</string>
+    <string name="hintUsername">Username</string>
+    <string name="hintSenha">Senha</string>
+    <string name="tituloLogin">Login</string>
+    <string name="btnFazerLogin">Login</string>
+    <string name="tituloPerfil">Perfil</string>
+    <string name="lblPefilNome">Nome:</string>
+    <string name="btnMinhasPerguntas">Minhas Perguntas</string>
+    <string name="btnResponderPergunta">Responder Pergunta</string>
+    <string name="Deslogar">DeslogarButton</string>
+    <string name="deslogarButton">Log out</string>
+    <string name="Veredito">Resposta Certa</string>
+    <string name="vereditoSim">Sim</string>
+    <string name="vereditoNao">Não</string>
+    <string name="usuario">Dados Usuário</string>
+    <string name="userName">"Usuário: "</string>
+    <string name="userReputation">"Reputação: "</string>
+
+</resources>

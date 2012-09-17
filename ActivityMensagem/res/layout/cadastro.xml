@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <TextView 
+    	android:layout_height="wrap_content" 
+    	android:textAppearance="?android:attr/textAppearanceLarge" 
+    	android:layout_width="wrap_content" 
+    	android:id="@+id/textView1" 
+    	android:layout_gravity="center" 
+    	android:text="@string/tituloCadastro">
+    </TextView>
+    <EditText 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="match_parent"
+    	android:hint="@+string/hintUsername" 
+    	android:id="@+id/editTextNomeCadastro">
+        <requestFocus></requestFocus>
+    </EditText>
+    <EditText 
+    	android:layout_width="match_parent" 
+    	android:layout_height="wrap_content" 
+    	android:hint="@+string/hintSenha" 
+    	android:inputType="textPassword" android:id="@+id/editTextSenhaCadastro">
+    </EditText>
+    <Button 
+    	android:layout_gravity="center" 
+    	android:layout_height="wrap_content" 
+    	android:text="@string/btnOkCadastro" 
+    	android:id="@+id/btnOkCadastro" android:layout_width="match_parent">
+    </Button>
+</LinearLayout>
